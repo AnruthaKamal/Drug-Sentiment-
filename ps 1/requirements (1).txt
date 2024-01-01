@@ -1,0 +1,10 @@
+numpy==1.21.4
+pickle-mixin==1.0.2
+streamlit==1.2.0
+streamlit-option-menu==0.3.2
+scikit-learn==1.1.2
+pandas==1.4.2
+nltk==3.7
+textblob==0.17.1
+PyPDF2== 2.11.1
+textract==1.6.5
