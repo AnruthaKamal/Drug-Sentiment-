@@ -7,9 +7,6 @@ with open('static_values.json', 'r') as json_file:
         unique_drugs = loaded_static_val['unique_drugs']
         unique_conditions = loaded_static_val['unique_conditions']
 
-# Sample drug names and conditions
-drug_names = ['Drug1', 'Drug2', 'Drug3']
-conditions = ['Condition1', 'Condition2', 'Condition3']
 
 # Get user inputs
 st.title("Drug Sentiment Analyzer")
@@ -33,10 +30,6 @@ of the given drug review.
 - **Prediction:**
   - Clicking the "Predict" button triggers the sentiment prediction based on the review, drug name, and condition.
   - The application provides predictions for two sentiments: "Positive" or "Negative."
-
-- **Machine Learning Model:**
-  - The underlying machine learning model used for sentiment prediction is Logistic Regression.
-  - Logistic Regression is a commonly used classification algorithm that works well for binary sentiment classification tasks.
 
 - **Drug and Condition Information:**
   - The application is trained on a dataset with 588 unique drug names and 40 unique medical conditions.
